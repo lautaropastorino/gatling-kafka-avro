@@ -2,6 +2,13 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+compiler.xml
+encodings.xml
+jarRepositories.xml
+misc.xml
+vcs.xml
+workspace.xml
+uiDesigner.xml
 
 ### IntelliJ IDEA ###
 .idea/modules.xml

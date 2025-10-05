@@ -84,7 +84,7 @@ services:
     network_mode: "host"
 ```
 
-## Código
+## Code
 
 The test generates Kafka events in the specified topic with a `key` of type String composed of a random UUID, and a `value` in Avro format defined by [transactionAvroSchema.avsc](src\main\resources\avro\transactionAvroSchema.avsc). The producer connects to AWS Glue Schema Registry to register and validate the schema's compatibility.
 

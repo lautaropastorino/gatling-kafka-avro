@@ -86,7 +86,7 @@ services:
 
 ## Code
 
-The test generates Kafka events in the specified topic with a `key` of type String composed of a random UUID, and a `value` in Avro format defined by [transactionAvroSchema.avsc](src\main\resources\avro\transactionAvroSchema.avsc). The producer connects to AWS Glue Schema Registry to register and validate the schema's compatibility.
+The test generates Kafka events in the specified topic with a `key` of type String composed of a random UUID, and a `value` in Avro format defined by [transactionAvroSchema.avsc](src/main/resources/avro/transactionAvroSchema.avsc). The producer connects to AWS Glue Schema Registry to register and validate the schema's compatibility.
 
 ## Español
 
@@ -174,4 +174,4 @@ services:
 
 ## Código
 
-La prueba crea eventos de Kafka en el tópico indicado con una `key` de tipo String formada por un UUID aleatorio y con un `value` con formato Avro definido por el [transactionAvroSchema.avsc](src\main\resources\avro\transactionAvroSchema.avsc). El produtor se conecta a AWS Glue Schema Registry para registrar y validar la compatibilidad del esquema.
+La prueba crea eventos de Kafka en el tópico indicado con una `key` de tipo String formada por un UUID aleatorio y con un `value` con formato Avro definido por el [transactionAvroSchema.avsc](src/main/resources/avro/transactionAvroSchema.avsc). El produtor se conecta a AWS Glue Schema Registry para registrar y validar la compatibilidad del esquema.

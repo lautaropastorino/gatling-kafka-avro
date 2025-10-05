@@ -1,0 +1,43 @@
+{
+  "type": "record",
+  "name": "Transactions",
+  "namespace": "org.lautaropastorino.poc",
+  "fields": [
+    {
+      "name": "establishmentId",
+      "type": "string"
+    },
+    {
+      "name": "transactionAmount",
+      "type": "double"
+    },
+    {
+      "name": "authorizationDate",
+      "type": "string"
+    },
+    {
+      "name": "otherField",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "anotherField",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "evenAnotherField",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    }
+  ]
+}
